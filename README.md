@@ -1,6 +1,6 @@
 # Android JNI using SWIG Examples
 
-This project demonstrates how to integrate SWIG (Simplified Wrapper and Interface Generator: http://www.swig.org/)
+This project demonstrates how to integrate [SWIG](http://www.swig.org/) (Simplified Wrapper and Interface Generator)
 into the Android project. In this example, SWIG wraps native C code according to an interface file and generates the proxy classes needed to call native functions from Java/Kotlin.
 
 ### Advantages
