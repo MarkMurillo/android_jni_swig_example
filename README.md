@@ -3,10 +3,10 @@
 This project demonstrates how to integrate SWIG (Simplified Wrapper and Interface Generator: http://www.swig.org/)
 into the Android project. In this example, SWIG wraps native C code according to an interface file and generates the proxy classes needed to call native functions from Java/Kotlin.
 
-## Advantages
+### Advantages
 - Generalizes (through interface files) writing wrapper code and takes care of a lot of boilerplate when it comes to working with JNI directly.
 
-## Disadvantages
+### Disadvantages
 - Callbacks to Java still need to be hand written. If somebody else figures out how to write callbacks to Java using the interface files to modify the proxy classes, by all means do a pull request :)
 
 
