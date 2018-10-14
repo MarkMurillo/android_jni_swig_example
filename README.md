@@ -7,7 +7,9 @@ into the Android project. In this example, SWIG wraps native C code according to
 - Generalizes (through interface files) writing wrapper code and takes care of a lot of boilerplate when it comes to working with JNI directly.
 
 ### Disadvantages
-- Callbacks to Java still need to be hand written. If somebody else figures out how to write callbacks to Java using the interface files to modify the proxy classes, by all means do a pull request :)
+- Callbacks to Java still need to be hand written. If somebody else figures out how to write callbacks to Java using the interface files to modify the proxy classes, by all means do a pull request :) 
+
+*(If interested in how to register callbacks to Java from Native C check out [Android JNI Examples](https://github.com/MarkMurillo/android_jni_example) which I also wrote!*
 
 
 
